@@ -36,9 +36,11 @@ You may use any routing, web framework, or native library you are comfortable wi
    - Use `docker-compose` to set up the application and the database as separate services (this will not apply if you choose to use SQLite).
 
 5. **Bonus**:
+   - Add a healthcheck endpoint.
    - Add a middleware for logging incoming requests.
    - Implement migrations using a tool such as Atlas to create the necessary tables.
-   - Use the repository pattern to implement GORM-specific operations
+   - Use the repository pattern to implement GORM-specific operations.
+   - Serve documentation for your endpoints.
    - Include unit tests for your endpoints.
 
 ## Deliverables:
